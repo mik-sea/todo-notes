@@ -1,0 +1,20 @@
+CRITICAL - 2020-10-15 09:29:32 --> Invalid file: login.php
+#0 C:\xampp\htdocs\todo\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\todo\app\Controllers\Home.php(7): view('login')
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-15 09:29:45 --> Invalid file: login.php
+#0 C:\xampp\htdocs\todo\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\todo\app\Controllers\Home.php(7): view('login')
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
