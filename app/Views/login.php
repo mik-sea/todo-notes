@@ -52,20 +52,24 @@ label{
 </head>
 <body>
     <div class="container text-center">
+		<?php if(session()->getFlashdata('msg')):?>
+        	<div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+        <?php endif;?>
         <!-- Tab links -->
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'Login')">Login/Register</button>
             <button class="tablinks" onclick="openTab(event, 'Room')">Join Room</button>
         </div>
-        
-        <!-- Tab content -->
+
+        <!-- Tab content Login-->
         <div id="Login" class="tabcontent">
+			<form action="/Home/login" method="post">
             <h3>Login</h3>
-            <label for="username">Username</label>
-            <input type="text" name="username" class="form-control" id="name">
+            <label for="Email">Email</label>
+            <input type="email" name="email" class="form-control text-center" id="email" placeholder="Enter Email">
             <br/>
             <label for="password">Password</label>
-            <input type="password" name="password" class="form-control" id="pass">
+            <input type="password" name="password" class="form-control text-center" id="pass" placeholder="Enter Password">
             <br/>
             <a href="#">Reset Password</a>
             <br/>
@@ -73,37 +77,40 @@ label{
             <button class="btn btn-outline-success" style="width: 100%;">Login</button>
             <br/>
             <br/>
-            <button class="btn btn-outline-secondary" style="width: 100%;">Daftar</button>
+			</form>
+			<button class="btn btn-outline-secondary" style="width: 100%;" onclick="openTab(event, 'Daftar')">Daftar</button>
         </div>
-        
+		<!-- End content Login -->
+
+		<!-- Tabb Room -->
         <div id="Room" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p>
-        </div>
+            <h3>Join Room</h3>
+            <input type="text" name="room" class="form-control text-center" id="room" placeholder="Enter Room Code">
+            <br>
+            <button class="btn btn-outline-success" style="width: 100%;">Join</button>
+		</div>
+		<!-- End Tab Room -->
+
+		<!-- Tab Daftar -->
+		<div id="Daftar" class="tabcontent">
+		<form action="/Home/insert" method="post">
+            <h3>Daftar</h3>
+            <label for="Email">Email</label>
+            <input type="email" name="email" class="form-control text-center" id="email" placeholder="Enter Email">
+            <br/>
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control text-center" id="pass" placeholder="Enter Password">
+            <br/>
+            <br/>
+            <button class="btn btn-outline-success" style="width: 100%;">Daftar</button>
+            <br/>
+            <br/>
+			</form>
+		</div>
+		<!-- End Tab Daftar -->
     </div>
-    <script>
-        function openTab(evt, tab) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
-
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the button that opened the tab
-        document.getElementById(tab).style.display = "block";
-        evt.currentTarget.className += " active";
-        }
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url('js/opentab.js');?>"></script>
 </body>
 </html>

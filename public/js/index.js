@@ -1,3 +1,8 @@
+$.get("http://localhost:8080/Home/listed", function(data, status){
+    let a = JSON.parse(data);
+    console.log(a)
+  });
+
 $('.card-header').hover(function(){
     $('.img').removeClass("disabled")
     $(".img").on('click',function(){

@@ -40,7 +40,7 @@
     </header>
     <div class="container-fluid">
         <div class="room">
-            <div class="code-room">Code Room : 177013</div>
+            <div class="code-room">Code Room : <?php echo $room["id_room"]?></div>
         </div>
     </div>
     <div class="container-fluid">
@@ -51,7 +51,7 @@
                     <div class="card-header">
                         <div class="row">
                             <div class="col-10">
-                                <h4 class="judul">PROCCESS</h4>
+                                <h4 class="judul"></h4>
                             </div>
                             <div class="col-2">
                                 <img src="<?php echo base_url('images/color-pencil.png')?>" alt="edit" class="img img-fluid disabled">
@@ -62,7 +62,7 @@
                         <div class="box-card">
                             <div class="row">
                                 <div class="col-10">
-                                    <p class="isi">Hello its me never know but just try have fun!</p>
+                                    <p class="isi"></p>
                                 </div>
                                 <div class="col-2">
                                     <img src="<?php echo base_url('images/color-pencil.png');?>" alt="edit" class="img-edit img-fluid disabled">
