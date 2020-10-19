@@ -5,6 +5,7 @@ use App\Models\HomeModel;
 use App\Models\AkunModel;
 use App\Models\RoomModel;
 use App\Models\ListedModel;
+use App\Models\JudulModel;
 
 class Home extends BaseController
 {
@@ -16,8 +17,13 @@ class Home extends BaseController
 		$session = session();
 		$id = $session->get('id_akun');
 		$model = new roomModel();
+		$listed = new listedModel();
+		$modelJudul = new judulModel();
+		$getRoom = $listed->getroom($id);
 		$datas = [
 			"room"=>$model->getidakun($id),
+			"todo"=>$getRoom,
+			"judul"=>$modelJudul->getAllJudul($model->getidakun($id)["id_room"]),
 		];
 		echo View('index',$datas);
 	}
@@ -26,6 +32,7 @@ class Home extends BaseController
 		$id = $session->get('id_akun');
 		$listed = new listedModel();
 		$a = $listed->getroom($id);
+		print_r($a);
 		// $data = [
 		// 	'id_judul'=>$a['id_judul'],
 		// 	'isi'=>$a['isi']

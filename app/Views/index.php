@@ -75,6 +75,28 @@
                     </div>
                 </div>
             </div>
+            <div class="col-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Judul</th>
+                            <th scope="col">Isi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                            for($i = 0;$i<count($todo);$i++) {
+                        ?>
+                        <tr>
+                            <th scope="row"><?php echo $i+1; ?></th>
+                            <td><?php echo $judul[$i]["judul"]; ?></td>
+                            <td><?php echo $todo[$i]["isi"]; ?></td>
+                        </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <!-- Modal ADD LIST-->

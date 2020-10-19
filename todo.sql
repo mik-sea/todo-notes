@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 18, 2020 at 07:09 PM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.2.32
+-- Generation Time: Oct 18, 2020 at 08:31 PM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.3.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -40,7 +41,8 @@ CREATE TABLE `akun` (
 
 INSERT INTO `akun` (`id_akun`, `nama`, `email`, `password`) VALUES
 ('20201018093116', 'user20201018093116', 'mirai@gmail.com', 'mirai123'),
-('20201018093801', 'user20201018093801', 'miraimiyuki65@gmail.com', 'mirai22');
+('20201018093801', 'user20201018093801', 'miraimiyuki65@gmail.com', 'mirai22'),
+('20201018123556', 'user20201018123556', 'kevin@gmail.com', 'kevin123');
 
 -- --------------------------------------------------------
 
@@ -59,7 +61,8 @@ CREATE TABLE `judul` (
 --
 
 INSERT INTO `judul` (`id_room`, `id_judul`, `judul`) VALUES
-('4854', 'j-1', 'Test Development');
+('4854', 'j-1', 'Test Development'),
+('4854', 'j-2', 'INI JUDUL');
 
 -- --------------------------------------------------------
 
@@ -80,7 +83,7 @@ CREATE TABLE `listed` (
 
 INSERT INTO `listed` (`id_room`, `id_akun`, `id_judul`, `isi`) VALUES
 ('4854', '20201018093801', 'j-1', 'hello ini text description okey'),
-('4854', '20201018093801', 'j-2', 'ini text ke 2');
+('4854', '20201018093801', 'j-2', 'INI ISINYAAAAAAAAAAAA');
 
 -- --------------------------------------------------------
 
@@ -99,7 +102,8 @@ CREATE TABLE `room` (
 
 INSERT INTO `room` (`id_akun`, `id_room`) VALUES
 ('20201018093116', '9442'),
-('20201018093801', '4854');
+('20201018093801', '4854'),
+('20201018123556', '7843');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
