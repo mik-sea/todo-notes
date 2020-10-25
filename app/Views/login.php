@@ -58,7 +58,7 @@ label{
         <!-- Tab links -->
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'Login')">Login/Register</button>
-            <button class="tablinks" onclick="openTab(event, 'Room')">Join Room</button>
+            <!-- <button class="tablinks" onclick="openTab(event, 'Room')">Join Room</button> -->
         </div>
 
         <!-- Tab content Login-->

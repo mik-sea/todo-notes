@@ -35,7 +35,8 @@ $routes->get('/room','Todo::index');
 $routes->get('/room/(:any)','Todo::show/$1');
 $routes->post('/insert','Todo::insert');
 $routes->get('/add','Todo::addList');
-$routes->delete('room/deletes/(:any)','Todo::deleteList/$1');
+$routes->delete('room/hapus/(:any)','Todo::deleteList/$1');
+$routes->put('/room/update/(:any)','Todo::updateList/$1');
 
 /**
  * --------------------------------------------------------------------

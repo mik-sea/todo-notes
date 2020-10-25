@@ -790,3 +790,580 @@ CRITICAL - 2020-10-25 05:03:23 --> A non-numeric value encountered
 #4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2020-10-25 08:43:55 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type integer, null given, called in C:\xampp\htdocs\todo\app\Models\ListedModel.php on line 10
+#0 C:\xampp\htdocs\todo\app\Models\ListedModel.php(10): CodeIgniter\Model->findAll(NULL)
+#1 C:\xampp\htdocs\todo\app\Controllers\Todo.php(69): App\Models\listedModel->getroom(NULL)
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-25 08:43:59 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type integer, null given, called in C:\xampp\htdocs\todo\app\Models\ListedModel.php on line 10
+#0 C:\xampp\htdocs\todo\app\Models\ListedModel.php(10): CodeIgniter\Model->findAll(NULL)
+#1 C:\xampp\htdocs\todo\app\Controllers\Todo.php(69): App\Models\listedModel->getroom(NULL)
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-25 08:49:52 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->insert()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 08:50:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->insert()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 08:50:51 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->insert()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 08:51:04 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->insert()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 09:32:56 --> Undefined variable: table
+#0 C:\xampp\htdocs\todo\app\Models\ListedModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\todo\app\Controllers\Todo.php(131): App\Models\listedModel->updateList(Array, 'judul-test 2')
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->updateList('judul-test 2')
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-25 09:38:44 --> Undefined property: App\controllers\Todo::$session
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->logout()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 09:39:16 --> Class 'App\controllers\session' not found
+#0 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->logout()
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-25 09:39:29 --> Undefined property: App\controllers\Todo::$session
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->logout()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:17:00 --> Array to string conversion
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:22:45 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:22:59 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:23:25 --> Undefined offset: 1
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:23:45 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:25:49 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:27:00 --> Undefined variable: datas
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:30:47 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:33:27 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:33:37 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:33:57 --> Array to string conversion
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:34:33 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:34:57 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:35:55 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:36:56 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:37:44 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:38:08 --> syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+#0 C:\xampp\htdocs\todo\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\todo\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:38:14 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:38:23 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:38:31 --> Undefined index: id_room
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:39:16 --> Undefined offset: 9417
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:39:29 --> Undefined index: id_judul
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 10:45:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\todo\app\Controllers\Todo.php(72): count('9417')
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-25 10:45:29 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:46:41 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:46:50 --> Undefined offset: 1
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:46:55 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:48:15 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-25 10:49:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-25 10:50:49 --> Illegal string offset 'id_room'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:51:03 --> Illegal string offset 'id_room'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:51:22 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:51:33 --> Illegal string offset 'id_judul'
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(74): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:53:10 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:55:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:55:10 --> Undefined variable: i
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:55:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(75): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 10:57:01 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\todo\app\Controllers\Todo.php(76): json_decode(Array)
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-25 10:57:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:01:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:02:08 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:08:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:10:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:10:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:11:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:12:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(71): App\Models\listedModel->getroom('9417')
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:13:40 --> Undefined variable: room
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 11:13:56 --> Array to string conversion
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 11:14:02 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 11:14:50 --> Undefined offset: 0
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-25 11:14:58 --> Array to string conversion
+#0 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#2 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#3 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-25 11:15:32 --> Array to string conversion
+#0 C:\xampp\htdocs\todo\app\Views\proto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\todo\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\todo\system\Common.php(1119): CodeIgniter\View\View->render('proto', Array, true)
+#3 C:\xampp\htdocs\todo\app\Controllers\Todo.php(77): view('proto', Array)
+#4 C:\xampp\htdocs\todo\system\CodeIgniter.php(918): App\controllers\Todo->index()
+#5 C:\xampp\htdocs\todo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\controllers\Todo))
+#6 C:\xampp\htdocs\todo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\todo\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\todo\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -66,10 +66,16 @@ class Todo extends BaseController
         $sess = session();
         $id_akun = $sess->get('id_akun');
         $list = new ListedModel();
-        $datas = ["data"=>$list->getRoom($id_akun)];
+        $room = new RoomModel();
+        $id_room = $room->getidakun($id_akun);
+        $get = $list->getRoom($id_room["id_room"]);
+        if(count($get)==0){
+            return redirect()->to('/add');
+        }else{
+            $datas = ["data"=>$get];
+        }
         return View("proto",$datas);
     }
-    
     // show api to room
     public function show($id){
         $list = new ListedModel();
@@ -94,10 +100,11 @@ class Todo extends BaseController
         $isi = $this->request->getVar('pesan');
         $id = $session->get('id_akun');
         $list = new ListedModel();
+        $room = new RoomModel();
         $get = $list->getroom($id);
         $idjudul = "judul-".$judul;
         $postdata = [
-			"id_room"=> $get[0]["id_room"],
+			"id_room"=> $room->getidakun($id)["id_room"],
             "id_akun"=> $id,
             "id_judul"=>$idjudul,
 			"judul"=>$judul,
@@ -115,5 +122,19 @@ class Todo extends BaseController
         $list = new ListedModel();
         $list->deleteList($id);
         return redirect()->to('/room');
+    }
+    function updateList($id){
+        $list = new ListedModel();
+        $textisi = $this->request->getvar('Ntext');
+        $data = array(
+            "isi"=>$textisi,
+        );
+        $list->updateList($data,$id);
+        return redirect()->to('/room');
+    }
+    function logout(){
+        $session = session();
+        $session->destroy();
+        return redirect()->to("/");
     }
 }

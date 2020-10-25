@@ -60,13 +60,19 @@ textarea{
 .active{
     background-color:"#000000";
 }
+.setline{
+    display:inline;
+}
     </style>
 </head>
 <body>
     <div class="room">
-        <div class="code-room">Code Room : <?php echo $data[0]["id_room"];?></div>
+        <div class="code-room ml-auto">Code Room : <?php echo $data[0]["id_room"];?></div>
+        <div class="logout">
+            <a href="/Todo/logout">Logout</a>
+        </div>
     </div>
-    <div class="container mt-3">
+    <div class="container mt-2">
         <div class="row">
             <div class="col-4 a">
                 <div>
@@ -91,7 +97,6 @@ textarea{
                 <div class="text-center judul-show">JUDULNYA</div>
                 <div class="row pl-1">
                     <div class="col-12 isi hide"></div>
-                    <div class='deletes mt-2'></div>
                 </div>
             </div>
         </div>

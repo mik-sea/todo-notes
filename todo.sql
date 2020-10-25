@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 18, 2020 at 08:31 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Oct 25, 2020 at 05:22 PM
+-- Server version: 10.4.13-MariaDB
+-- PHP Version: 7.2.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -40,9 +39,7 @@ CREATE TABLE `akun` (
 --
 
 INSERT INTO `akun` (`id_akun`, `nama`, `email`, `password`) VALUES
-('20201018093116', 'user20201018093116', 'mirai@gmail.com', 'mirai123'),
-('20201018093801', 'user20201018093801', 'miraimiyuki65@gmail.com', 'mirai22'),
-('20201018123556', 'user20201018123556', 'kevin@gmail.com', 'kevin123');
+('20201018093116', 'user20201018093116', 'guru', 'guru123');
 
 -- --------------------------------------------------------
 
@@ -61,8 +58,8 @@ CREATE TABLE `judul` (
 --
 
 INSERT INTO `judul` (`id_room`, `id_judul`, `judul`) VALUES
-('4854', 'j-1', 'Test Development'),
-('4854', 'j-2', 'INI JUDUL');
+('4854', 'test list', 'Test Development'),
+('4854', 'test list', 'Proccess');
 
 -- --------------------------------------------------------
 
@@ -74,6 +71,7 @@ CREATE TABLE `listed` (
   `id_room` varchar(20) NOT NULL,
   `id_akun` varchar(20) NOT NULL,
   `id_judul` varchar(20) NOT NULL,
+  `judul` text NOT NULL,
   `isi` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -81,9 +79,9 @@ CREATE TABLE `listed` (
 -- Dumping data for table `listed`
 --
 
-INSERT INTO `listed` (`id_room`, `id_akun`, `id_judul`, `isi`) VALUES
-('4854', '20201018093801', 'j-1', 'hello ini text description okey'),
-('4854', '20201018093801', 'j-2', 'INI ISINYAAAAAAAAAAAA');
+INSERT INTO `listed` (`id_room`, `id_akun`, `id_judul`, `judul`, `isi`) VALUES
+('9442', '20201018093116', 'judul-percobaan', 'percobaan', 'muantap jiwaaaa'),
+('9442', '20201018093116', 'judul-mantappu jiwa', 'mantappu jiwa', 'opening started');
 
 -- --------------------------------------------------------
 
@@ -93,17 +91,18 @@ INSERT INTO `listed` (`id_room`, `id_akun`, `id_judul`, `isi`) VALUES
 
 CREATE TABLE `room` (
   `id_akun` varchar(20) NOT NULL,
-  `id_room` varchar(20) NOT NULL
+  `id_room` varchar(20) NOT NULL,
+  `time` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `room`
 --
 
-INSERT INTO `room` (`id_akun`, `id_room`) VALUES
-('20201018093116', '9442'),
-('20201018093801', '4854'),
-('20201018123556', '7843');
+INSERT INTO `room` (`id_akun`, `id_room`, `time`) VALUES
+('20201018093116', '9442', '00:00:00'),
+('20201018093801', '4854', '00:00:00'),
+('20201025093431', '9417', '00:00:00');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
