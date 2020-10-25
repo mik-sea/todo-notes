@@ -39,7 +39,7 @@ CREATE TABLE `akun` (
 --
 
 INSERT INTO `akun` (`id_akun`, `nama`, `email`, `password`) VALUES
-('20201018093116', 'user20201018093116', 'guru', 'guru123');
+('20201018093116', 'user20201018093116', 'guru@gmail.com', 'guru123');
 
 -- --------------------------------------------------------
 
