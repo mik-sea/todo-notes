@@ -2,7 +2,7 @@
 
 use CodeIgniter\Model;
 
-class roomModel extends Model
+class RoomModel extends Model
 {
     protected $table = "room";
     protected $primaryKey = "id_akun";

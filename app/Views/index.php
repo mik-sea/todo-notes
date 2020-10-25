@@ -40,18 +40,18 @@
     </header>
     <div class="container-fluid">
         <div class="room">
-            <div class="code-room">Code Room : <?php echo $room["id_room"]?></div>
+            <div class="code-room">Code Room :</div>
         </div>
     </div>
     <div class="container-fluid">
-        <button class="btn btn-outline-secondary mt-2 newList" id="newList">+ NEW</button>
+        <button class="btn btn-outline-secondary mt-2 newList" id="newList" data-target="modaList">+ NEW</button>
         <div class="row mt-3">
             <div class="col-4">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
                             <div class="col-10">
-                                <h4 class="judul"></h4>
+                                <h4 class="judul">></h4>
                             </div>
                             <div class="col-2">
                                 <img src="<?php echo base_url('images/color-pencil.png')?>" alt="edit" class="img img-fluid disabled">
@@ -75,31 +75,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">Judul</th>
-                            <th scope="col">Isi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                            for($i = 0;$i<count($todo);$i++) {
-                        ?>
-                        <tr>
-                            <th scope="row"><?php echo $i+1; ?></th>
-                            <td><?php echo $judul[$i]["judul"]; ?></td>
-                            <td><?php echo $todo[$i]["isi"]; ?></td>
-                        </tr>
-                        <?php } ?>
-                    </tbody>
-                </table>
-            </div>
         </div>
     </div>
     <!-- Modal ADD LIST-->
+    <form action="" method="post">
     <div class="modal fade" id="modalList" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -120,6 +99,7 @@
             </div>
         </div>
     </div>
+    </form>
     <!-- Modal Edit isi -->
     <div class="modal fade" id="modalIsi" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -142,11 +122,12 @@
         </div>
     </div>
     <!-- Modal New List -->
+    <form action="/Home/insertlist" method="POST">
     <div class="modal fade" id="modalNewList" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <input type="text" name="judul" id="judul" class="form-control">
+                    <input type="text" name="judul" id="judul" class="form-control" placeholder="Masukkan judul">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -162,6 +143,7 @@
             </div>
         </div>
     </div>
+    </form> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="<?php echo base_url('js/index.js');?>" defer></script>

@@ -63,7 +63,7 @@ label{
 
         <!-- Tab content Login-->
         <div id="Login" class="tabcontent">
-			<form action="/Home/login" method="post">
+			<form action="/Todo/login" method="post">
             <h3>Login</h3>
             <label for="Email">Email</label>
             <input type="email" name="email" class="form-control text-center" id="email" placeholder="Enter Email">
@@ -93,7 +93,7 @@ label{
 
 		<!-- Tab Daftar -->
 		<div id="Daftar" class="tabcontent">
-		<form action="/Home/insert" method="post">
+		<form action="/Todo/insertd" method="post">
             <h3>Daftar</h3>
             <label for="Email">Email</label>
             <input type="email" name="email" class="form-control text-center" id="email" placeholder="Enter Email">

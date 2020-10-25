@@ -9,11 +9,21 @@ use App\Models\JudulModel;
 
 class Home extends BaseController
 {
-	public function index()
-	{
-		echo View('login');
-	}
 	public function room(){
+		$session = session();
+		$id = $session->get('id_akun');
+		$model = new roomModel();
+		$listed = new listedModel();
+		$modelJudul = new judulModel();
+		$getRoom = $listed->getroom($id);
+		$datas = [
+			"room"=>$model->getidakun($id),
+			"todo"=>$getRoom,
+			"judul"=>$modelJudul->getAllJudul(1),
+		];
+		echo View('index',$datas);
+	}
+	public function listed(){
 		$session = session();
 		$id = $session->get('id_akun');
 		$model = new roomModel();
@@ -25,19 +35,7 @@ class Home extends BaseController
 			"todo"=>$getRoom,
 			"judul"=>$modelJudul->getAllJudul($model->getidakun($id)["id_room"]),
 		];
-		echo View('index',$datas);
-	}
-	public function listed(){
-		$session = session();
-		$id = $session->get('id_akun');
-		$listed = new listedModel();
-		$a = $listed->getroom($id);
-		print_r($a);
-		// $data = [
-		// 	'id_judul'=>$a['id_judul'],
-		// 	'isi'=>$a['isi']
-		// ];
-		// return json_encode($data);
+		return $datas;
 	}
 	public function insert(){
 		$id = date("Ymdhis");
@@ -57,33 +55,29 @@ class Home extends BaseController
 		$room = $model->addRoom($rooms);
 		return redirect()->to('/');
 	}
-	public function login(){
+	
+	public function insertList(){
 		$session = session();
-        $model = new AkunModel();
-        $email = $this->request->getVar('email');
-        $password = $this->request->getVar('password');
-		$data = $model->where('email', $email)->first();
-        if($data){
-			$pass = $data['password'];
-			// $verify_pass = password_verify($pass, $password);
-            if($pass == $password){
-                $ses_data = [
-                    'id_akun'       => $data['id_akun'],
-                    'email'    => $data['email'],
-                    'logged_in'     => TRUE
-                ];
-                $session->set($ses_data);
-                return redirect()->to('/Home/room');
-            }else{
-                $session->setFlashdata('msg', 'Wrong Password');
-                return redirect()->to('/');
-            }
-        }else{
-            $session->setFlashdata('msg', 'Email not Found');
-            return redirect()->to('/');
-        }
+		$id = $session->get('id_akun');
+		$model = new HomeModel();
+		$listedModel = new ListedModel();
+		$judulModel = new JudulModel();
+		$judul = $this->request->getVar('judul');
+		$isi = $this->request->getVar('pesan');
+		$listeddata = [
+			"id_room"=> $model->getidakun($id)["id_room"],
+			"id_akun"=> getidakun($id)["id_akun"],
+			"id_judul"=>"j-3",
+			"isi"=>$isi,
+		];
+		$juduls=[
+			'id_room'=> $model->getidakun($id)["id_room"],
+			'id_judul'=>$id_judul,
+			'judul'=>$judul
+		];
+		$insertj = $judulModel->insertJudul($juduls);
+		$insertl = $listedModel->insertList($listeddata);
+		return redirect()->to('/Home/room');
 	}
-
-	//--------------------------------------------------------------------
 
 }

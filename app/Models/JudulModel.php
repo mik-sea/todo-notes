@@ -8,4 +8,7 @@ class judulModel extends Model{
     function getAllJudul($id_room) {
     	return $this->where('id_room', $id_room)->findAll();
     }
+    function insertJudul($judul){
+        return $this->db->table($table)->insert($judul);
+    }
 }
